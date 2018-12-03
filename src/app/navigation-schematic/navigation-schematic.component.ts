@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./navigation-schematic.component.css']
 })
 export class NavigationSchematicComponent {
-  websiteName = "Hactivism"
+  websiteName = "Hacktivism"
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
       map(result => result.matches)
