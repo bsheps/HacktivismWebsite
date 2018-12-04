@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+if you are running the dev server and wish to see the site on another computer on the net work, find the internal IP of the hosting computer and run 'ng serve --host <host_inet> ' you will then bea ble to travel to that IP (on port 4200 unless otherwise specified with --port <#>) from any other computer on the network. 
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
