@@ -8,7 +8,6 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
 import { CaseStudiesComponent } from './case_studies/case_studies.component';
-import { ProsComponent } from './Pros/pros.component';
 import { ConclusionComponent } from './conclusion/conclusion.component';
 import { IntroComponent } from './intro/intro.component';
 import {MatMenuModule} from '@angular/material/menu';
@@ -18,7 +17,6 @@ import {MatMenuModule} from '@angular/material/menu';
     AppComponent,
     NavigationSchematicComponent,
     CaseStudiesComponent,
-    ProsComponent,
     ConclusionComponent,
     IntroComponent
   ],
