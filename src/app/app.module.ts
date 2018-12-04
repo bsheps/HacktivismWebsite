@@ -8,6 +8,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
 import { CaseStudiesComponent } from './case_studies/case_studies.component';
+import { SourcesComponent } from './sources/sources.component';
 import { ConclusionComponent } from './conclusion/conclusion.component';
 import { IntroComponent } from './intro/intro.component';
 import {MatMenuModule} from '@angular/material/menu';
@@ -17,6 +18,7 @@ import {MatMenuModule} from '@angular/material/menu';
     AppComponent,
     NavigationSchematicComponent,
     CaseStudiesComponent,
+    SourcesComponent,
     ConclusionComponent,
     IntroComponent
   ],
@@ -33,6 +35,7 @@ import {MatMenuModule} from '@angular/material/menu';
     RouterModule.forRoot([
       { path: 'intro', component: IntroComponent },
       { path: 'case', component: CaseStudiesComponent },
+      { path: 'Sources', component: SourcesComponent },
       { path: 'Conclusion', component: ConclusionComponent },
       { path: '', redirectTo: 'intro', pathMatch: 'full'},
       { path: '**', redirectTo: 'intro', pathMatch: 'full'}
