@@ -7,17 +7,17 @@ import { NavigationSchematicComponent } from './navigation-schematic/navigation-
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
-import { ConsComponent } from './Cons/cons.component';
+import { CaseStudiesComponent } from './case_studies/case_studies.component';
 import { ProsComponent } from './Pros/pros.component';
 import { ConclusionComponent } from './conclusion/conclusion.component';
 import { IntroComponent } from './intro/intro.component';
-
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationSchematicComponent,
-    ConsComponent,
+    CaseStudiesComponent,
     ProsComponent,
     ConclusionComponent,
     IntroComponent
@@ -28,13 +28,13 @@ import { IntroComponent } from './intro/intro.component';
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
+    MatMenuModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,
     RouterModule.forRoot([
       {path: 'intro', component: IntroComponent },
-      {path: 'cons', component: ConsComponent },
-      { path: 'pros', component: ProsComponent },
+      {path: 'case_studies', component: CaseStudiesComponent },
       { path: 'Conclusion', component: ConclusionComponent },
       { path: '', redirectTo: 'intro', pathMatch: 'full'},
       { path: '**', redirectTo: 'intro', pathMatch: 'full'}

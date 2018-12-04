@@ -1,0 +1,17 @@
+#page{
+    background-color: #000000;
+}
+p {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-size: 50px; 
+    color: #20c20e;
+}
+h3, a {
+    color: #20c20e;
+}
+mat-divider {
+    background: #20c20e;
+}
