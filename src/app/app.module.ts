@@ -31,8 +31,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatIconModule,
     MatListModule,
     RouterModule.forRoot([
-      {path: 'intro', component: IntroComponent },
-      {path: 'case_studies', component: CaseStudiesComponent },
+      { path: 'intro', component: IntroComponent },
+      { path: 'case', component: CaseStudiesComponent },
       { path: 'Conclusion', component: ConclusionComponent },
       { path: '', redirectTo: 'intro', pathMatch: 'full'},
       { path: '**', redirectTo: 'intro', pathMatch: 'full'}
