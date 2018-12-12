@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { CaseStudiesComponent } from './case_studies/case_studies.component';
 import { SourcesComponent } from './sources/sources.component';
 import { ConclusionComponent } from './conclusion/conclusion.component';
+import { VideoComponent } from './video/video.component';
 import { IntroComponent } from './intro/intro.component';
 import {MatMenuModule} from '@angular/material/menu';
 
@@ -20,6 +21,7 @@ import {MatMenuModule} from '@angular/material/menu';
     CaseStudiesComponent,
     SourcesComponent,
     ConclusionComponent,
+    VideoComponent,
     IntroComponent
   ],
   imports: [
@@ -37,6 +39,7 @@ import {MatMenuModule} from '@angular/material/menu';
       { path: 'case', component: CaseStudiesComponent },
       { path: 'Sources', component: SourcesComponent },
       { path: 'Conclusion', component: ConclusionComponent },
+      { path: 'Video', component: VideoComponent },
       { path: '', redirectTo: 'intro', pathMatch: 'full'},
       { path: '**', redirectTo: 'intro', pathMatch: 'full'}
     ])
